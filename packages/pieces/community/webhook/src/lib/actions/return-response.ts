@@ -3,7 +3,6 @@ import {
   Property,
   createAction,
 } from '@activepieces/pieces-framework';
-import { StopResponse } from '@activepieces/shared';
 import { StatusCodes } from 'http-status-codes';
 
 enum ResponseType {
@@ -105,7 +104,7 @@ export const returnResponse = createAction({
     const headers = fields['headers'];
     const status = fields['status'];
     
-    const response: StopResponse = {
+    const response: any = {
       status: status ?? StatusCodes.OK,
       headers: (headers as Record<string, string>) ?? {},
     };

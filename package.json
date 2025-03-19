@@ -154,6 +154,7 @@
     "deep-equal": "2.2.2",
     "deepmerge-ts": "7.1.0",
     "drip-nodejs": "3.1.2",
+    "drizzle-orm": "0.40.0",
     "elevenlabs": "0.2.2",
     "embla-carousel-react": "8.1.8",
     "exifreader": "4.20.0",
